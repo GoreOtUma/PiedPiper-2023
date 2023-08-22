@@ -1,0 +1,164 @@
+@import url("normalize.css");
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #007765;
+    position:sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    top: 0;
+    z-index: 21;
+    left: 0;
+    height: 84px;
+    box-sizing: border-box;
+}
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1219px;
+}
+.logo {
+    display: inline-block;
+}
+.logo img {
+    width: 184px; height: 45px;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    display: inline-block; 
+    text-align: left;
+}
+.content {
+    color: #000000;
+    background-color: #EEEEEE;
+    font-size: 32px;
+    margin: auto;
+}
+.first_inf, .second_inf, .third_inf, .fourth_inf, .fifth_inf {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 0;
+    max-width: 1219px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.first_block {
+    background: url('image.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+h1 {
+    font-size: 72px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 84px;
+}
+h2 {
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+}
+.second_block {
+    padding-top: 55px;
+    padding-bottom: 95px;
+}
+.third_block {
+    font-size: cover;
+    background-position: center no-repeat;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('image_2.jpg');
+}
+.third_message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+.fourth_block {
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+figure {
+    float: left;
+    margin: 0px 40px 0px 0px;
+}
+.ppc_logo {
+    width: 115px;
+    height: 115px;
+}
+.details {
+    color: #fff;
+    font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+}
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.member {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.member-name {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #007765;
+}
+.member-role {
+    font-style: italic;
+    font-size: 18px;
+}
+.fifth_block {
+    padding-top: 58px;
+    padding-bottom: 112px;
+}
+.footer {
+    font-size: 18px;
+    color: #fff;
+    font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+    background: #333333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 176px;
+}
+.footer_text {
+    width: 540px;
+    height: 64px;
+}
